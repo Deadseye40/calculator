@@ -19,27 +19,13 @@ content="default">
 <link rel="apple-touch-icon" sizes="180x180" href="touch-icons/touchicon-iphone-retina.png">
 <link rel="apple-touch-icon" sizes="167x167" href="touch-icons/touchicon-ipad-retina.png">
 <!--Splash Screens-->
-<link href="splashscreens/iphone5_splash.png" media="(device-width:
-320px) and (device-height: 568px) and (-webkit-device-pixel-ratio:
-2)" rel="apple-touch-startup-image" />
-<link href="splashscreens/iphone6_splash.png" media="(device-width:
-375px) and (device-height: 667px) and (-webkit-device-pixel-ratio:
-2)" rel="apple-touch-startup-image" />
-<link href="splashscreens/iphoneplus_splash.png" media="(devicewidth:
-621px) and (device-height: 1104px) and (-webkit-device-pixelratio:
-3)" rel="apple-touch-startup-image" />
-<link href="splashscreens/iphonex_splash.png" media="(device-width:
-375px) and (device-height: 812px) and (-webkit-device-pixel-ratio:
-3)" rel="apple-touch-startup-image" />
-<link href="splashscreens/ipad_splash.png" media="(device-width:
-768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio:
-2)" rel="apple-touch-startup-image" />
-<link href="splashscreens/ipadpro1_splash.png" media="(device-width:
-834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio:
-2)" rel="apple-touch-startup-image" />
-<link href="splashscreens/ipadpro2_splash.png" media="(device-width:
-1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio:
-2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphone5_splash.png" media="(device-width:320px) and (device-height: 568px) and (-webkit-device-pixel-ratio:2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphone6_splash.png" media="(device-width:375px) and (device-height: 667px) and (-webkit-device-pixel-ratio:2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphoneplus_splash.png" media="(devicewidth:621px) and (device-height: 1104px) and (-webkit-device-pixelratio:3)" rel="apple-touch-startup-image" />
+<link href="splashscreens/iphonex_splash.png" media="(device-width:375px) and (device-height: 812px) and (-webkit-device-pixel-ratio:3)" rel="apple-touch-startup-image" />
+<link href="splashscreens/ipad_splash.png" media="(device-width:768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio:2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/ipadpro1_splash.png" media="(device-width:834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio:2)" rel="apple-touch-startup-image" />
+<link href="splashscreens/ipadpro2_splash.png" media="(device-width:1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio:2)" rel="apple-touch-startup-image" />
 <link rel="manifest" href="manifest.json">
 
 </head>
@@ -66,7 +52,11 @@ content="default">
 		<button class="button number" onclick="Calculator.type('0')">0</button>
 		<button class="button number" onclick="Calculator.type('.')">.</button>
 		<button class="button function" onclick="Calculator.display('')">C</button>
-		<button class="button operator" onclick="Calculator.e()">=</button>
+		<button class="button operator" onclick="Calculator.e();">=</button>
+		<button class="button operator" onclick="Calculator.type('Math.PI')">π</button>
+		<button class="button operator" onclick="Calculator.type('**');">expo</button>
+		<button class="button operator" onclick="Calculator.sqrt();"> √ </button>
+		<button class="button operator" onclick="Calculator.fac();">!</button>
 	</div>
 
 	<script>

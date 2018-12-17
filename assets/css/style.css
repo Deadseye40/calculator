@@ -19,10 +19,10 @@ body {
 	height: 20vh;
 	width: 100%;
 	color: black;
-	background-color: #bccd95;
+	background-color: #DFDAFF;
 	font-size: 8vw;
 	text-align: right;
-	border: 8px solid #bfc4ce;
+	border: 8px solid #F1EFFF
 	padding: 0px;
 }
 
@@ -52,12 +52,14 @@ body {
 	background-color: #c64f81;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
+	font-family: Georgia;
 }
 .button.operator {
 	color: white;
 	background-color: #4d5966;
 	border-bottom: black 8px solid;
 	border-top: 4px #6f6f6f solid;
+	font-family: serif;
 }
 .button.number {
 	color: white;

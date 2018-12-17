@@ -81,5 +81,25 @@ var Calculator = {
 		setTimeout(function() {
 			document.getElementById("d").value = temp;
 		}, 1000);
-	}
+	},
+	sqrt: function() {
+		// get value of the display
+		this.e();
+		var display = document.getElementById("d").value;
+		// search or split it to find the last number
+		var answer = Math.sqrt(display)
+		this.display(answer);
+
+	},
+	fac: function() {
+		var display = document.getElementById("d").value;
+	  if (display < 0)
+	  return -1;
+	  else if (display == 0)
+	  return 1;
+	  else {
+	    this.display(display * factorial(display-1))
+
+	  }
+}
 }
